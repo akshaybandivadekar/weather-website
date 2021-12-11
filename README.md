@@ -1,5 +1,12 @@
 # weather-website
 
+For Running Application
+
+Go to terminal root repository:
+
+npm run start
+
+
 Creating Heroku Application:
 
 Go to terminal root repository:

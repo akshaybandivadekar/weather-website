@@ -21,3 +21,8 @@ https://dashboard.heroku.com/apps/akshayb-weather-application/deploy/github
 And deploy either Manually or Automatically
 
 Refers this article => https://devcenter.heroku.com/articles/github-integration
+
+
+Application deployed on =>
+
+https://akshayb-weather-application.herokuapp.com/

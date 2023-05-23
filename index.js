@@ -5,13 +5,13 @@ const hbs = require('hbs');
 const app = express();
 const port = process.env.PORT || 3000;
 
-const geoCode = require('./utils/geoCode');
-const forecast = require('./utils/forecast');
+const geoCode = require('./src/utils/geoCode');
+const forecast = require('./src/utils/forecast');
 
 //Define path for express config
-const publicDirPath = path.join(__dirname, '../public');
-const viewPath = path.join(__dirname, '../templates/views');
-const partialsPath = path.join(__dirname, '../templates/partials')
+const publicDirPath = path.join(__dirname, './public');
+const viewPath = path.join(__dirname, './templates/views');
+const partialsPath = path.join(__dirname, './templates/partials')
 
 //Setup handlebars engine and view location
 app.set('view engine', 'hbs');

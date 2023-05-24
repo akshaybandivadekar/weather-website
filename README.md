@@ -1,35 +1,34 @@
-# weather-website
+# Weather Website
 
-For Running Application
+Weather Website with Node.js
 
-Go to terminal root repository:
+## Tech Stack
 
-npm run start
+**Server:** Node JS, Express JS
 
+**Client:** Weatherstack API, Mapbox
 
-Creating Heroku Application:
+## Available Scripts
 
-Go to terminal root repository:
+In the project directory, you can run:
 
-heroku keys:add
+### `npm start`
 
-heroku create {application-name}
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-For e.g.
-heroku create akshayb-weather-application
+### `npm dev`
 
-Deploying code on Heroku:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Go to this tab => https://dashboard.heroku.com/apps/{application-name}/deploy/github
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-for eg.
-https://dashboard.heroku.com/apps/akshayb-weather-application/deploy/github
+## Deployment
 
-And deploy either Manually or Automatically
+https://akshay-weather-website.vercel.app/
 
-Refers this article => https://devcenter.heroku.com/articles/github-integration
+## Author
 
-
-Application deployed on =>
-
-https://akshayb-weather-application.herokuapp.com/
+- [@akshaybandivadekar](https://github.com/akshaybandivadekar)
